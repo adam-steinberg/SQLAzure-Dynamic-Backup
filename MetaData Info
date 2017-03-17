@@ -1,0 +1,6 @@
+
+Populate metadata table with details for your backup system
+AZContainerURL  = 'https://yourcontainerlocation.blob.core.windows.net/YourStorageFolderName/'
+AZContainerName = 'YourContainer/'
+DBName = 'TheDBToBackUp'
+https://gdcodwmanagedbackup.blob.core.windows.net/gdcodwjobsql01/ gdcoreportingdwstg/ default backup location dw job GDCOReportingDWStg
