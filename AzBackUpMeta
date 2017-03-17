@@ -1,0 +1,9 @@
+CREATE TABLE dbo.[MetaAzBackup](
+	[id] [tinyint] identity NOT NULL,
+	[AzContainerURL] [nvarchar](200) NULL,
+	[AzContainerName] [nvarchar](50) NULL,
+	[AzContainerDescription] [nvarchar](50) NULL,
+	[GDCODwEnvironment] [nvarchar](50) NULL,
+	[GDCODwDbName] [nvarchar](50) NULL
+) ON [PRIMARY]
+GO
